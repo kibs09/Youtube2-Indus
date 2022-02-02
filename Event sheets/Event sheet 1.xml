@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="818076313520605">
+            <conditions>
+                <condition id="0" name="On clicked" sid="362368444744234" type="Button" />
+            </conditions>
+            <actions>
+                <action id="0" name="Load video" sid="792233360673860" type="YoutubePlayer">
+                    <param id="0" name="Video ID">TextBox.Text</param>
+                    <param id="1" name="Play">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
